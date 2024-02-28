@@ -1,2 +1,2 @@
 # City-Gym-Application
-A desktop console application for Windows to manage gym memberships
+The source code of a C++ desktop database console application for Windows to manage gym memberships
