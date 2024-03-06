@@ -1,0 +1,3667 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelAddAMember_PageHeading.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="labelAddAMember_PageHeading.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="labelAddAMember_PageHeading.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 14.25pt, style=Bold</value>
+  </data>
+  <data name="labelAddAMember_PageHeading.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelAddAMember_PageHeading.Location" type="System.Drawing.Point, System.Drawing">
+    <value>566, 42</value>
+  </data>
+  <data name="labelAddAMember_PageHeading.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelAddAMember_PageHeading.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 26</value>
+  </data>
+  <data name="labelAddAMember_PageHeading.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelAddAMember_PageHeading.Text" xml:space="preserve">
+    <value>ADD A MEMBER</value>
+  </data>
+  <data name="&gt;&gt;labelAddAMember_PageHeading.Name" xml:space="preserve">
+    <value>labelAddAMember_PageHeading</value>
+  </data>
+  <data name="&gt;&gt;labelAddAMember_PageHeading.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAddAMember_PageHeading.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelAddAMember_PageHeading.ZOrder" xml:space="preserve">
+    <value>76</value>
+  </data>
+  <data name="labelPremium20PerWeek_PremiumMembership.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelPremium20PerWeek_PremiumMembership.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPremium20PerWeek_PremiumMembership.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="labelPremium20PerWeek_PremiumMembership.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPremium20PerWeek_PremiumMembership.Location" type="System.Drawing.Point, System.Drawing">
+    <value>562, 510</value>
+  </data>
+  <data name="labelPremium20PerWeek_PremiumMembership.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelPremium20PerWeek_PremiumMembership.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="labelPremium20PerWeek_PremiumMembership.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelPremium20PerWeek_PremiumMembership.Text" xml:space="preserve">
+    <value>$20 per week</value>
+  </data>
+  <data name="&gt;&gt;labelPremium20PerWeek_PremiumMembership.Name" xml:space="preserve">
+    <value>labelPremium20PerWeek_PremiumMembership</value>
+  </data>
+  <data name="&gt;&gt;labelPremium20PerWeek_PremiumMembership.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPremium20PerWeek_PremiumMembership.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPremium20PerWeek_PremiumMembership.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="radioButtonPremium_Membership.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonPremium_Membership.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 74</value>
+  </data>
+  <data name="radioButtonPremium_Membership.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="radioButtonPremium_Membership.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="radioButtonPremium_Membership.Text" xml:space="preserve">
+    <value>Premium</value>
+  </data>
+  <data name="&gt;&gt;radioButtonPremium_Membership.Name" xml:space="preserve">
+    <value>radioButtonPremium_Membership</value>
+  </data>
+  <data name="&gt;&gt;radioButtonPremium_Membership.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonPremium_Membership.Parent" xml:space="preserve">
+    <value>panelMembershipTypes</value>
+  </data>
+  <data name="&gt;&gt;radioButtonPremium_Membership.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelSelectYourPreferredMembershipType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelSelectYourPreferredMembershipType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSelectYourPreferredMembershipType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt, style=Italic</value>
+  </data>
+  <data name="labelSelectYourPreferredMembershipType.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSelectYourPreferredMembershipType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 408</value>
+  </data>
+  <data name="labelSelectYourPreferredMembershipType.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelSelectYourPreferredMembershipType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 17</value>
+  </data>
+  <data name="labelSelectYourPreferredMembershipType.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelSelectYourPreferredMembershipType.Text" xml:space="preserve">
+    <value>Select your preferred membership type</value>
+  </data>
+  <data name="&gt;&gt;labelSelectYourPreferredMembershipType.Name" xml:space="preserve">
+    <value>labelSelectYourPreferredMembershipType</value>
+  </data>
+  <data name="&gt;&gt;labelSelectYourPreferredMembershipType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSelectYourPreferredMembershipType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelSelectYourPreferredMembershipType.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="radioButtonBasic_Membership.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonBasic_Membership.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 14</value>
+  </data>
+  <data name="radioButtonBasic_Membership.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="radioButtonBasic_Membership.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="radioButtonBasic_Membership.Text" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="&gt;&gt;radioButtonBasic_Membership.Name" xml:space="preserve">
+    <value>radioButtonBasic_Membership</value>
+  </data>
+  <data name="&gt;&gt;radioButtonBasic_Membership.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonBasic_Membership.Parent" xml:space="preserve">
+    <value>panelMembershipTypes</value>
+  </data>
+  <data name="&gt;&gt;radioButtonBasic_Membership.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelBasic10PerWeek_BasicMembership.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelBasic10PerWeek_BasicMembership.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBasic10PerWeek_BasicMembership.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="labelBasic10PerWeek_BasicMembership.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelBasic10PerWeek_BasicMembership.Location" type="System.Drawing.Point, System.Drawing">
+    <value>562, 450</value>
+  </data>
+  <data name="labelBasic10PerWeek_BasicMembership.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelBasic10PerWeek_BasicMembership.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="labelBasic10PerWeek_BasicMembership.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelBasic10PerWeek_BasicMembership.Text" xml:space="preserve">
+    <value>$10 per week</value>
+  </data>
+  <data name="&gt;&gt;labelBasic10PerWeek_BasicMembership.Name" xml:space="preserve">
+    <value>labelBasic10PerWeek_BasicMembership</value>
+  </data>
+  <data name="&gt;&gt;labelBasic10PerWeek_BasicMembership.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBasic10PerWeek_BasicMembership.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelBasic10PerWeek_BasicMembership.ZOrder" xml:space="preserve">
+    <value>75</value>
+  </data>
+  <data name="radioButtonRegular_Membership.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonRegular_Membership.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 44</value>
+  </data>
+  <data name="radioButtonRegular_Membership.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 24</value>
+  </data>
+  <data name="radioButtonRegular_Membership.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="radioButtonRegular_Membership.Text" xml:space="preserve">
+    <value>Regular</value>
+  </data>
+  <data name="&gt;&gt;radioButtonRegular_Membership.Name" xml:space="preserve">
+    <value>radioButtonRegular_Membership</value>
+  </data>
+  <data name="&gt;&gt;radioButtonRegular_Membership.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonRegular_Membership.Parent" xml:space="preserve">
+    <value>panelMembershipTypes</value>
+  </data>
+  <data name="&gt;&gt;radioButtonRegular_Membership.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelRegular15PerWeek_RegularMembership.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelRegular15PerWeek_RegularMembership.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRegular15PerWeek_RegularMembership.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="labelRegular15PerWeek_RegularMembership.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRegular15PerWeek_RegularMembership.Location" type="System.Drawing.Point, System.Drawing">
+    <value>562, 480</value>
+  </data>
+  <data name="labelRegular15PerWeek_RegularMembership.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelRegular15PerWeek_RegularMembership.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="labelRegular15PerWeek_RegularMembership.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelRegular15PerWeek_RegularMembership.Text" xml:space="preserve">
+    <value>$15 per week</value>
+  </data>
+  <data name="&gt;&gt;labelRegular15PerWeek_RegularMembership.Name" xml:space="preserve">
+    <value>labelRegular15PerWeek_RegularMembership</value>
+  </data>
+  <data name="&gt;&gt;labelRegular15PerWeek_RegularMembership.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRegular15PerWeek_RegularMembership.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelRegular15PerWeek_RegularMembership.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="labelMembershipTypes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelMembershipTypes.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelMembershipTypes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMembershipTypes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 406</value>
+  </data>
+  <data name="labelMembershipTypes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 23</value>
+  </data>
+  <data name="labelMembershipTypes.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="labelMembershipTypes.Text" xml:space="preserve">
+    <value>Membership Types :</value>
+  </data>
+  <data name="&gt;&gt;labelMembershipTypes.Name" xml:space="preserve">
+    <value>labelMembershipTypes</value>
+  </data>
+  <data name="&gt;&gt;labelMembershipTypes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMembershipTypes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelMembershipTypes.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="labelAddAdditionalValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelAddAdditionalValue.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt, style=Italic</value>
+  </data>
+  <data name="labelAddAdditionalValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelAddAdditionalValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 739</value>
+  </data>
+  <data name="labelAddAdditionalValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>258, 23</value>
+  </data>
+  <data name="labelAddAdditionalValue.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="labelAddAdditionalValue.Text" xml:space="preserve">
+    <value>Add additional value to your membership</value>
+  </data>
+  <data name="&gt;&gt;labelAddAdditionalValue.Name" xml:space="preserve">
+    <value>labelAddAdditionalValue</value>
+  </data>
+  <data name="&gt;&gt;labelAddAdditionalValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAddAdditionalValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelAddAdditionalValue.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="label1PerWeek_24_7Access.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="label1PerWeek_24_7Access.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1PerWeek_24_7Access.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1PerWeek_24_7Access.Location" type="System.Drawing.Point, System.Drawing">
+    <value>568, 776</value>
+  </data>
+  <data name="label1PerWeek_24_7Access.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label1PerWeek_24_7Access.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 16</value>
+  </data>
+  <data name="label1PerWeek_24_7Access.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1PerWeek_24_7Access.Text" xml:space="preserve">
+    <value>$1 per week</value>
+  </data>
+  <data name="&gt;&gt;label1PerWeek_24_7Access.Name" xml:space="preserve">
+    <value>label1PerWeek_24_7Access</value>
+  </data>
+  <data name="&gt;&gt;label1PerWeek_24_7Access.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1PerWeek_24_7Access.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1PerWeek_24_7Access.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="label20PerWeek_DietConsultation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="label20PerWeek_DietConsultation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label20PerWeek_DietConsultation.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label20PerWeek_DietConsultation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>562, 828</value>
+  </data>
+  <data name="label20PerWeek_DietConsultation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label20PerWeek_DietConsultation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="label20PerWeek_DietConsultation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label20PerWeek_DietConsultation.Text" xml:space="preserve">
+    <value>$20 per week</value>
+  </data>
+  <data name="&gt;&gt;label20PerWeek_DietConsultation.Name" xml:space="preserve">
+    <value>label20PerWeek_DietConsultation</value>
+  </data>
+  <data name="&gt;&gt;label20PerWeek_DietConsultation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20PerWeek_DietConsultation.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label20PerWeek_DietConsultation.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="label20PerWeek_PersonalTrainer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="label20PerWeek_PersonalTrainer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label20PerWeek_PersonalTrainer.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label20PerWeek_PersonalTrainer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>562, 802</value>
+  </data>
+  <data name="label20PerWeek_PersonalTrainer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label20PerWeek_PersonalTrainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="label20PerWeek_PersonalTrainer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label20PerWeek_PersonalTrainer.Text" xml:space="preserve">
+    <value>$20 per week</value>
+  </data>
+  <data name="&gt;&gt;label20PerWeek_PersonalTrainer.Name" xml:space="preserve">
+    <value>label20PerWeek_PersonalTrainer</value>
+  </data>
+  <data name="&gt;&gt;label20PerWeek_PersonalTrainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label20PerWeek_PersonalTrainer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label20PerWeek_PersonalTrainer.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="label2PerWeek_OnlineVideoAccess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="label2PerWeek_OnlineVideoAccess.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2PerWeek_OnlineVideoAccess.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2PerWeek_OnlineVideoAccess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>568, 854</value>
+  </data>
+  <data name="label2PerWeek_OnlineVideoAccess.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label2PerWeek_OnlineVideoAccess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 16</value>
+  </data>
+  <data name="label2PerWeek_OnlineVideoAccess.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label2PerWeek_OnlineVideoAccess.Text" xml:space="preserve">
+    <value>$2 per week</value>
+  </data>
+  <data name="&gt;&gt;label2PerWeek_OnlineVideoAccess.Name" xml:space="preserve">
+    <value>label2PerWeek_OnlineVideoAccess</value>
+  </data>
+  <data name="&gt;&gt;label2PerWeek_OnlineVideoAccess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2PerWeek_OnlineVideoAccess.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2PerWeek_OnlineVideoAccess.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="textBoxContractDurationDiscount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="textBoxContractDurationDiscount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="textBoxContractDurationDiscount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="textBoxContractDurationDiscount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 606</value>
+  </data>
+  <data name="textBoxContractDurationDiscount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="textBoxContractDurationDiscount.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxContractDurationDiscount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>610, 62</value>
+  </data>
+  <data name="textBoxContractDurationDiscount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBoxContractDurationDiscount.Text" xml:space="preserve">
+    <value>$5 discount per week on a 24-month contract 
+$2 discount per week on a 12-month contract</value>
+  </data>
+  <data name="textBoxContractDurationDiscount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBoxContractDurationDiscount.Name" xml:space="preserve">
+    <value>textBoxContractDurationDiscount</value>
+  </data>
+  <data name="&gt;&gt;textBoxContractDurationDiscount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxContractDurationDiscount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxContractDurationDiscount.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="labelSelectYourPreferredContractDuration.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelSelectYourPreferredContractDuration.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSelectYourPreferredContractDuration.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt, style=Italic</value>
+  </data>
+  <data name="labelSelectYourPreferredContractDuration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSelectYourPreferredContractDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 561</value>
+  </data>
+  <data name="labelSelectYourPreferredContractDuration.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelSelectYourPreferredContractDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 17</value>
+  </data>
+  <data name="labelSelectYourPreferredContractDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelSelectYourPreferredContractDuration.Text" xml:space="preserve">
+    <value>Select your preferred contract duration</value>
+  </data>
+  <data name="&gt;&gt;labelSelectYourPreferredContractDuration.Name" xml:space="preserve">
+    <value>labelSelectYourPreferredContractDuration</value>
+  </data>
+  <data name="&gt;&gt;labelSelectYourPreferredContractDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSelectYourPreferredContractDuration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelSelectYourPreferredContractDuration.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="radioButton3Months_ContractDuration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton3Months_ContractDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="radioButton3Months_ContractDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 24</value>
+  </data>
+  <data name="radioButton3Months_ContractDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="radioButton3Months_ContractDuration.Text" xml:space="preserve">
+    <value>3 months</value>
+  </data>
+  <data name="&gt;&gt;radioButton3Months_ContractDuration.Name" xml:space="preserve">
+    <value>radioButton3Months_ContractDuration</value>
+  </data>
+  <data name="&gt;&gt;radioButton3Months_ContractDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton3Months_ContractDuration.Parent" xml:space="preserve">
+    <value>panelContractDuration</value>
+  </data>
+  <data name="&gt;&gt;radioButton3Months_ContractDuration.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButton12Months_ContractDuration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton12Months_ContractDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>85, 3</value>
+  </data>
+  <data name="radioButton12Months_ContractDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 24</value>
+  </data>
+  <data name="radioButton12Months_ContractDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="radioButton12Months_ContractDuration.Text" xml:space="preserve">
+    <value>12 months</value>
+  </data>
+  <data name="&gt;&gt;radioButton12Months_ContractDuration.Name" xml:space="preserve">
+    <value>radioButton12Months_ContractDuration</value>
+  </data>
+  <data name="&gt;&gt;radioButton12Months_ContractDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton12Months_ContractDuration.Parent" xml:space="preserve">
+    <value>panelContractDuration</value>
+  </data>
+  <data name="&gt;&gt;radioButton12Months_ContractDuration.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButton24Months_ContractDuration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButton24Months_ContractDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 3</value>
+  </data>
+  <data name="radioButton24Months_ContractDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 24</value>
+  </data>
+  <data name="radioButton24Months_ContractDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="radioButton24Months_ContractDuration.Text" xml:space="preserve">
+    <value>24 months</value>
+  </data>
+  <data name="&gt;&gt;radioButton24Months_ContractDuration.Name" xml:space="preserve">
+    <value>radioButton24Months_ContractDuration</value>
+  </data>
+  <data name="&gt;&gt;radioButton24Months_ContractDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButton24Months_ContractDuration.Parent" xml:space="preserve">
+    <value>panelContractDuration</value>
+  </data>
+  <data name="&gt;&gt;radioButton24Months_ContractDuration.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonCalculateMembership.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="buttonCalculateMembership.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonCalculateMembership.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="buttonCalculateMembership.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt, style=Bold</value>
+  </data>
+  <data name="buttonCalculateMembership.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonCalculateMembership.Location" type="System.Drawing.Point, System.Drawing">
+    <value>894, 603</value>
+  </data>
+  <data name="buttonCalculateMembership.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="buttonCalculateMembership.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 58</value>
+  </data>
+  <data name="buttonCalculateMembership.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="buttonCalculateMembership.Text" xml:space="preserve">
+    <value>CALCULATE MEMBERSHIP</value>
+  </data>
+  <data name="&gt;&gt;buttonCalculateMembership.Name" xml:space="preserve">
+    <value>buttonCalculateMembership</value>
+  </data>
+  <data name="&gt;&gt;buttonCalculateMembership.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCalculateMembership.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonCalculateMembership.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <data name="labelValueAddedExtrasOptional.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelValueAddedExtrasOptional.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelValueAddedExtrasOptional.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelValueAddedExtrasOptional.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelValueAddedExtrasOptional.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 737</value>
+  </data>
+  <data name="labelValueAddedExtrasOptional.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelValueAddedExtrasOptional.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 19</value>
+  </data>
+  <data name="labelValueAddedExtrasOptional.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelValueAddedExtrasOptional.Text" xml:space="preserve">
+    <value>Value-Added Extras :</value>
+  </data>
+  <data name="&gt;&gt;labelValueAddedExtrasOptional.Name" xml:space="preserve">
+    <value>labelValueAddedExtrasOptional</value>
+  </data>
+  <data name="&gt;&gt;labelValueAddedExtrasOptional.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelValueAddedExtrasOptional.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelValueAddedExtrasOptional.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="labelMembershipCost.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelMembershipCost.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMembershipCost.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelMembershipCost.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMembershipCost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>685, 559</value>
+  </data>
+  <data name="labelMembershipCost.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelMembershipCost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 19</value>
+  </data>
+  <data name="labelMembershipCost.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelMembershipCost.Text" xml:space="preserve">
+    <value>Membership Cost :</value>
+  </data>
+  <data name="&gt;&gt;labelMembershipCost.Name" xml:space="preserve">
+    <value>labelMembershipCost</value>
+  </data>
+  <data name="&gt;&gt;labelMembershipCost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMembershipCost.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelMembershipCost.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="labelBaseMembershipCost.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelBaseMembershipCost.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBaseMembershipCost.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelBaseMembershipCost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>891, 718</value>
+  </data>
+  <data name="labelBaseMembershipCost.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelBaseMembershipCost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 16</value>
+  </data>
+  <data name="labelBaseMembershipCost.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelBaseMembershipCost.Text" xml:space="preserve">
+    <value>Base membership cost</value>
+  </data>
+  <data name="&gt;&gt;labelBaseMembershipCost.Name" xml:space="preserve">
+    <value>labelBaseMembershipCost</value>
+  </data>
+  <data name="&gt;&gt;labelBaseMembershipCost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBaseMembershipCost.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelBaseMembershipCost.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="labelValueAddedExtras.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelValueAddedExtras.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelValueAddedExtras.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelValueAddedExtras.Location" type="System.Drawing.Point, System.Drawing">
+    <value>891, 774</value>
+  </data>
+  <data name="labelValueAddedExtras.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelValueAddedExtras.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 16</value>
+  </data>
+  <data name="labelValueAddedExtras.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelValueAddedExtras.Text" xml:space="preserve">
+    <value>Value-added extras</value>
+  </data>
+  <data name="&gt;&gt;labelValueAddedExtras.Name" xml:space="preserve">
+    <value>labelValueAddedExtras</value>
+  </data>
+  <data name="&gt;&gt;labelValueAddedExtras.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelValueAddedExtras.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelValueAddedExtras.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="textBoxDirectDebitDiscount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="textBoxDirectDebitDiscount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="textBoxDirectDebitDiscount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Disable</value>
+  </data>
+  <data name="textBoxDirectDebitDiscount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 942</value>
+  </data>
+  <data name="textBoxDirectDebitDiscount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="textBoxDirectDebitDiscount.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBoxDirectDebitDiscount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>610, 61</value>
+  </data>
+  <data name="textBoxDirectDebitDiscount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBoxDirectDebitDiscount.Text" xml:space="preserve">
+    <value>Receive a further 1 % discount 
+on the base membership cost for Direct Debits</value>
+  </data>
+  <data name="textBoxDirectDebitDiscount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBoxDirectDebitDiscount.Name" xml:space="preserve">
+    <value>textBoxDirectDebitDiscount</value>
+  </data>
+  <data name="&gt;&gt;textBoxDirectDebitDiscount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxDirectDebitDiscount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxDirectDebitDiscount.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="labelIWouldLikeToPayWithDirectDebit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelIWouldLikeToPayWithDirectDebit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelIWouldLikeToPayWithDirectDebit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 1021</value>
+  </data>
+  <data name="labelIWouldLikeToPayWithDirectDebit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 19</value>
+  </data>
+  <data name="labelIWouldLikeToPayWithDirectDebit.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelIWouldLikeToPayWithDirectDebit.Text" xml:space="preserve">
+    <value>Would you like to pay with direct debit?</value>
+  </data>
+  <data name="&gt;&gt;labelIWouldLikeToPayWithDirectDebit.Name" xml:space="preserve">
+    <value>labelIWouldLikeToPayWithDirectDebit</value>
+  </data>
+  <data name="&gt;&gt;labelIWouldLikeToPayWithDirectDebit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelIWouldLikeToPayWithDirectDebit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelIWouldLikeToPayWithDirectDebit.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="radioButtonYes_DirectDebit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonYes_DirectDebit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="radioButtonYes_DirectDebit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 24</value>
+  </data>
+  <data name="radioButtonYes_DirectDebit.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="radioButtonYes_DirectDebit.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="&gt;&gt;radioButtonYes_DirectDebit.Name" xml:space="preserve">
+    <value>radioButtonYes_DirectDebit</value>
+  </data>
+  <data name="&gt;&gt;radioButtonYes_DirectDebit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonYes_DirectDebit.Parent" xml:space="preserve">
+    <value>panelDirectDebit</value>
+  </data>
+  <data name="&gt;&gt;radioButtonYes_DirectDebit.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radioButtonNo_DirectDebit.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonNo_DirectDebit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 7</value>
+  </data>
+  <data name="radioButtonNo_DirectDebit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 24</value>
+  </data>
+  <data name="radioButtonNo_DirectDebit.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="radioButtonNo_DirectDebit.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNo_DirectDebit.Name" xml:space="preserve">
+    <value>radioButtonNo_DirectDebit</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNo_DirectDebit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNo_DirectDebit.Parent" xml:space="preserve">
+    <value>panelDirectDebit</value>
+  </data>
+  <data name="&gt;&gt;radioButtonNo_DirectDebit.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="labelTotalDiscount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelTotalDiscount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelTotalDiscount.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt, style=Italic</value>
+  </data>
+  <data name="labelTotalDiscount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelTotalDiscount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>891, 746</value>
+  </data>
+  <data name="labelTotalDiscount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelTotalDiscount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 16</value>
+  </data>
+  <data name="labelTotalDiscount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelTotalDiscount.Text" xml:space="preserve">
+    <value>less total discount</value>
+  </data>
+  <data name="&gt;&gt;labelTotalDiscount.Name" xml:space="preserve">
+    <value>labelTotalDiscount</value>
+  </data>
+  <data name="&gt;&gt;labelTotalDiscount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTotalDiscount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelTotalDiscount.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="labelYourRegularPayment.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelYourRegularPayment.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 14.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="labelYourRegularPayment.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelYourRegularPayment.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 843</value>
+  </data>
+  <data name="labelYourRegularPayment.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelYourRegularPayment.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 26</value>
+  </data>
+  <data name="labelYourRegularPayment.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelYourRegularPayment.Text" xml:space="preserve">
+    <value>Your regular weekly payment amount will be... </value>
+  </data>
+  <data name="labelYourRegularPayment.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelYourRegularPayment.Name" xml:space="preserve">
+    <value>labelYourRegularPayment</value>
+  </data>
+  <data name="&gt;&gt;labelYourRegularPayment.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelYourRegularPayment.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelYourRegularPayment.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="labelPreferredPaymentFrequency.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelPreferredPaymentFrequency.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPreferredPaymentFrequency.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="labelPreferredPaymentFrequency.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPreferredPaymentFrequency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 1063</value>
+  </data>
+  <data name="labelPreferredPaymentFrequency.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelPreferredPaymentFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 16</value>
+  </data>
+  <data name="labelPreferredPaymentFrequency.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelPreferredPaymentFrequency.Text" xml:space="preserve">
+    <value>Your preferred payment frequency?</value>
+  </data>
+  <data name="&gt;&gt;labelPreferredPaymentFrequency.Name" xml:space="preserve">
+    <value>labelPreferredPaymentFrequency</value>
+  </data>
+  <data name="&gt;&gt;labelPreferredPaymentFrequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPreferredPaymentFrequency.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPreferredPaymentFrequency.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="radioButtonWeekly_PaymentFrequency.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonWeekly_PaymentFrequency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="radioButtonWeekly_PaymentFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 24</value>
+  </data>
+  <data name="radioButtonWeekly_PaymentFrequency.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="radioButtonWeekly_PaymentFrequency.Text" xml:space="preserve">
+    <value>Weekly</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWeekly_PaymentFrequency.Name" xml:space="preserve">
+    <value>radioButtonWeekly_PaymentFrequency</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWeekly_PaymentFrequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWeekly_PaymentFrequency.Parent" xml:space="preserve">
+    <value>panelPaymentFrequency</value>
+  </data>
+  <data name="&gt;&gt;radioButtonWeekly_PaymentFrequency.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radioButtonMonthly_PaymentFrequency.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioButtonMonthly_PaymentFrequency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 7</value>
+  </data>
+  <data name="radioButtonMonthly_PaymentFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 24</value>
+  </data>
+  <data name="radioButtonMonthly_PaymentFrequency.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="radioButtonMonthly_PaymentFrequency.Text" xml:space="preserve">
+    <value>Monthly</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMonthly_PaymentFrequency.Name" xml:space="preserve">
+    <value>radioButtonMonthly_PaymentFrequency</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMonthly_PaymentFrequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMonthly_PaymentFrequency.Parent" xml:space="preserve">
+    <value>panelPaymentFrequency</value>
+  </data>
+  <data name="&gt;&gt;radioButtonMonthly_PaymentFrequency.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelCustomerDetails.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelCustomerDetails.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCustomerDetails.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelCustomerDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelCustomerDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 188</value>
+  </data>
+  <data name="labelCustomerDetails.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelCustomerDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 19</value>
+  </data>
+  <data name="labelCustomerDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelCustomerDetails.Text" xml:space="preserve">
+    <value>Customer Details :</value>
+  </data>
+  <data name="&gt;&gt;labelCustomerDetails.Name" xml:space="preserve">
+    <value>labelCustomerDetails</value>
+  </data>
+  <data name="&gt;&gt;labelCustomerDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCustomerDetails.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCustomerDetails.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="labelFirstName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelFirstName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelFirstName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelFirstName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 225</value>
+  </data>
+  <data name="labelFirstName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelFirstName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 16</value>
+  </data>
+  <data name="labelFirstName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelFirstName.Text" xml:space="preserve">
+    <value>First name :</value>
+  </data>
+  <data name="&gt;&gt;labelFirstName.Name" xml:space="preserve">
+    <value>labelFirstName</value>
+  </data>
+  <data name="&gt;&gt;labelFirstName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelFirstName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelFirstName.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="labelLastName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelLastName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelLastName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelLastName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>757, 225</value>
+  </data>
+  <data name="labelLastName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelLastName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="labelLastName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelLastName.Text" xml:space="preserve">
+    <value>Last name :</value>
+  </data>
+  <data name="&gt;&gt;labelLastName.Name" xml:space="preserve">
+    <value>labelLastName</value>
+  </data>
+  <data name="&gt;&gt;labelLastName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelLastName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelLastName.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="labelAddress1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelAddress1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAddress1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelAddress1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 302</value>
+  </data>
+  <data name="labelAddress1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelAddress1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="labelAddress1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelAddress1.Text" xml:space="preserve">
+    <value>Address 1 :</value>
+  </data>
+  <data name="&gt;&gt;labelAddress1.Name" xml:space="preserve">
+    <value>labelAddress1</value>
+  </data>
+  <data name="&gt;&gt;labelAddress1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAddress1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelAddress1.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="labelAddress2Optional.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelAddress2Optional.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelAddress2Optional.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelAddress2Optional.Location" type="System.Drawing.Point, System.Drawing">
+    <value>757, 299</value>
+  </data>
+  <data name="labelAddress2Optional.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelAddress2Optional.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 16</value>
+  </data>
+  <data name="labelAddress2Optional.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelAddress2Optional.Text" xml:space="preserve">
+    <value>Address 2 : (optional)</value>
+  </data>
+  <data name="&gt;&gt;labelAddress2Optional.Name" xml:space="preserve">
+    <value>labelAddress2Optional</value>
+  </data>
+  <data name="&gt;&gt;labelAddress2Optional.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelAddress2Optional.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelAddress2Optional.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="textBoxAddress2Optional.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="textBoxAddress2Optional.Location" type="System.Drawing.Point, System.Drawing">
+    <value>894, 298</value>
+  </data>
+  <data name="textBoxAddress2Optional.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="textBoxAddress2Optional.Size" type="System.Drawing.Size, System.Drawing">
+    <value>383, 22</value>
+  </data>
+  <data name="textBoxAddress2Optional.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="textBoxAddress2Optional.Text" xml:space="preserve">
+    <value>Your street address...</value>
+  </data>
+  <data name="&gt;&gt;textBoxAddress2Optional.Name" xml:space="preserve">
+    <value>textBoxAddress2Optional</value>
+  </data>
+  <data name="&gt;&gt;textBoxAddress2Optional.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxAddress2Optional.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxAddress2Optional.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="textBoxLastName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="textBoxLastName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>894, 222</value>
+  </data>
+  <data name="textBoxLastName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="textBoxLastName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>383, 22</value>
+  </data>
+  <data name="textBoxLastName.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="textBoxLastName.Text" xml:space="preserve">
+    <value>Your last name...</value>
+  </data>
+  <data name="&gt;&gt;textBoxLastName.Name" xml:space="preserve">
+    <value>textBoxLastName</value>
+  </data>
+  <data name="&gt;&gt;textBoxLastName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxLastName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxLastName.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="textBoxAddress1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="textBoxAddress1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 298</value>
+  </data>
+  <data name="textBoxAddress1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="textBoxAddress1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 22</value>
+  </data>
+  <data name="textBoxAddress1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="textBoxAddress1.Text" xml:space="preserve">
+    <value>Unit number and street address...</value>
+  </data>
+  <data name="&gt;&gt;textBoxAddress1.Name" xml:space="preserve">
+    <value>textBoxAddress1</value>
+  </data>
+  <data name="&gt;&gt;textBoxAddress1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxAddress1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxAddress1.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="textBoxFirstName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="textBoxFirstName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 222</value>
+  </data>
+  <data name="textBoxFirstName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="textBoxFirstName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 22</value>
+  </data>
+  <data name="textBoxFirstName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="textBoxFirstName.Text" xml:space="preserve">
+    <value>Your first name...</value>
+  </data>
+  <data name="&gt;&gt;textBoxFirstName.Name" xml:space="preserve">
+    <value>textBoxFirstName</value>
+  </data>
+  <data name="&gt;&gt;textBoxFirstName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxFirstName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxFirstName.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="labelSuburbOrCity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelSuburbOrCity.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSuburbOrCity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSuburbOrCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 330</value>
+  </data>
+  <data name="labelSuburbOrCity.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelSuburbOrCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 16</value>
+  </data>
+  <data name="labelSuburbOrCity.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelSuburbOrCity.Text" xml:space="preserve">
+    <value>Suburb / City :</value>
+  </data>
+  <data name="&gt;&gt;labelSuburbOrCity.Name" xml:space="preserve">
+    <value>labelSuburbOrCity</value>
+  </data>
+  <data name="&gt;&gt;labelSuburbOrCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSuburbOrCity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelSuburbOrCity.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="textBoxSuburbOrCity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="textBoxSuburbOrCity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 328</value>
+  </data>
+  <data name="textBoxSuburbOrCity.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="textBoxSuburbOrCity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 22</value>
+  </data>
+  <data name="textBoxSuburbOrCity.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="textBoxSuburbOrCity.Text" xml:space="preserve">
+    <value>Your suburb or city...</value>
+  </data>
+  <data name="&gt;&gt;textBoxSuburbOrCity.Name" xml:space="preserve">
+    <value>textBoxSuburbOrCity</value>
+  </data>
+  <data name="&gt;&gt;textBoxSuburbOrCity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxSuburbOrCity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxSuburbOrCity.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="labelRegion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelRegion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRegion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRegion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>757, 330</value>
+  </data>
+  <data name="labelRegion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelRegion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 16</value>
+  </data>
+  <data name="labelRegion.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelRegion.Text" xml:space="preserve">
+    <value>Region :</value>
+  </data>
+  <data name="&gt;&gt;labelRegion.Name" xml:space="preserve">
+    <value>labelRegion</value>
+  </data>
+  <data name="&gt;&gt;labelRegion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRegion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelRegion.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="labelPostalCode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelPostalCode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPostalCode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPostalCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 361</value>
+  </data>
+  <data name="labelPostalCode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelPostalCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 16</value>
+  </data>
+  <data name="labelPostalCode.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelPostalCode.Text" xml:space="preserve">
+    <value>Postal code :</value>
+  </data>
+  <data name="&gt;&gt;labelPostalCode.Name" xml:space="preserve">
+    <value>labelPostalCode</value>
+  </data>
+  <data name="&gt;&gt;labelPostalCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPostalCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPostalCode.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="textBoxPostalCode.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="textBoxPostalCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 358</value>
+  </data>
+  <data name="textBoxPostalCode.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="textBoxPostalCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 22</value>
+  </data>
+  <data name="textBoxPostalCode.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="textBoxPostalCode.Text" xml:space="preserve">
+    <value>0000</value>
+  </data>
+  <data name="textBoxPostalCode.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;textBoxPostalCode.Name" xml:space="preserve">
+    <value>textBoxPostalCode</value>
+  </data>
+  <data name="&gt;&gt;textBoxPostalCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxPostalCode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxPostalCode.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="labelMobileNumber.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelMobileNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelMobileNumber.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelMobileNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 257</value>
+  </data>
+  <data name="labelMobileNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="labelMobileNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 16</value>
+  </data>
+  <data name="labelMobileNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelMobileNumber.Text" xml:space="preserve">
+    <value>Mobile number :</value>
+  </data>
+  <data name="&gt;&gt;labelMobileNumber.Name" xml:space="preserve">
+    <value>labelMobileNumber</value>
+  </data>
+  <data name="&gt;&gt;labelMobileNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelMobileNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelMobileNumber.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="textBoxMobileNumber.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="textBoxMobileNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 254</value>
+  </data>
+  <data name="textBoxMobileNumber.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="textBoxMobileNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 22</value>
+  </data>
+  <data name="textBoxMobileNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="textBoxMobileNumber.Text" xml:space="preserve">
+    <value>Your mobile number...</value>
+  </data>
+  <data name="&gt;&gt;textBoxMobileNumber.Name" xml:space="preserve">
+    <value>textBoxMobileNumber</value>
+  </data>
+  <data name="&gt;&gt;textBoxMobileNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxMobileNumber.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxMobileNumber.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="checkBoxCityGymConsent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="checkBoxCityGymConsent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
+  </data>
+  <data name="checkBoxCityGymConsent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxCityGymConsent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>894, 428</value>
+  </data>
+  <data name="checkBoxCityGymConsent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 38</value>
+  </data>
+  <data name="checkBoxCityGymConsent.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="checkBoxCityGymConsent.Text" xml:space="preserve">
+    <value>I hereby consent to my details being shared with City Gym for administrative purposes to process my gym membership registration.</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCityGymConsent.Name" xml:space="preserve">
+    <value>checkBoxCityGymConsent</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCityGymConsent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCityGymConsent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxCityGymConsent.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="checkBoxThirdPartyConsent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="checkBoxThirdPartyConsent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt, style=Bold</value>
+  </data>
+  <data name="checkBoxThirdPartyConsent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxThirdPartyConsent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>894, 499</value>
+  </data>
+  <data name="checkBoxThirdPartyConsent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>366, 36</value>
+  </data>
+  <data name="checkBoxThirdPartyConsent.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="checkBoxThirdPartyConsent.Text" xml:space="preserve">
+    <value>I hereby consent to my contact details being shared with third parties for marketing purposes.</value>
+  </data>
+  <data name="&gt;&gt;checkBoxThirdPartyConsent.Name" xml:space="preserve">
+    <value>checkBoxThirdPartyConsent</value>
+  </data>
+  <data name="&gt;&gt;checkBoxThirdPartyConsent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxThirdPartyConsent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;checkBoxThirdPartyConsent.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="labelWelcomeMessage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelWelcomeMessage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelWelcomeMessage.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 11.25pt</value>
+  </data>
+  <data name="labelWelcomeMessage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelWelcomeMessage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>415, 101</value>
+  </data>
+  <data name="labelWelcomeMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>473, 40</value>
+  </data>
+  <data name="labelWelcomeMessage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelWelcomeMessage.Text" xml:space="preserve">
+    <value>Add a new member by completing the information below.
+View our membership rates for the different membership types.</value>
+  </data>
+  <data name="labelWelcomeMessage.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelWelcomeMessage.Name" xml:space="preserve">
+    <value>labelWelcomeMessage</value>
+  </data>
+  <data name="&gt;&gt;labelWelcomeMessage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelWelcomeMessage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelWelcomeMessage.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="labelSelectIfApplicable.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelSelectIfApplicable.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSelectIfApplicable.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt, style=Italic</value>
+  </data>
+  <data name="labelSelectIfApplicable.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSelectIfApplicable.Location" type="System.Drawing.Point, System.Drawing">
+    <value>891, 479</value>
+  </data>
+  <data name="labelSelectIfApplicable.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 17</value>
+  </data>
+  <data name="labelSelectIfApplicable.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelSelectIfApplicable.Text" xml:space="preserve">
+    <value>Select if applicable</value>
+  </data>
+  <data name="&gt;&gt;labelSelectIfApplicable.Name" xml:space="preserve">
+    <value>labelSelectIfApplicable</value>
+  </data>
+  <data name="&gt;&gt;labelSelectIfApplicable.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSelectIfApplicable.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelSelectIfApplicable.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="labelEnterYourContactDetails.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelEnterYourContactDetails.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelEnterYourContactDetails.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt, style=Italic</value>
+  </data>
+  <data name="labelEnterYourContactDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelEnterYourContactDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 190</value>
+  </data>
+  <data name="labelEnterYourContactDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 17</value>
+  </data>
+  <data name="labelEnterYourContactDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelEnterYourContactDetails.Text" xml:space="preserve">
+    <value>Enter your contact details</value>
+  </data>
+  <data name="&gt;&gt;labelEnterYourContactDetails.Name" xml:space="preserve">
+    <value>labelEnterYourContactDetails</value>
+  </data>
+  <data name="&gt;&gt;labelEnterYourContactDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelEnterYourContactDetails.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelEnterYourContactDetails.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="buttonResetForm.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonResetForm.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="buttonResetForm.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt, style=Bold</value>
+  </data>
+  <data name="buttonResetForm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonResetForm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>894, 1040</value>
+  </data>
+  <data name="buttonResetForm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="buttonResetForm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 58</value>
+  </data>
+  <data name="buttonResetForm.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="buttonResetForm.Text" xml:space="preserve">
+    <value>RESET FORM</value>
+  </data>
+  <data name="&gt;&gt;buttonResetForm.Name" xml:space="preserve">
+    <value>buttonResetForm</value>
+  </data>
+  <data name="&gt;&gt;buttonResetForm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonResetForm.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonResetForm.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="buttonSubmit_Registration.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="buttonSubmit_Registration.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="buttonSubmit_Registration.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 12pt, style=Bold</value>
+  </data>
+  <data name="buttonSubmit_Registration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonSubmit_Registration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>894, 942</value>
+  </data>
+  <data name="buttonSubmit_Registration.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="buttonSubmit_Registration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 58</value>
+  </data>
+  <data name="buttonSubmit_Registration.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="buttonSubmit_Registration.Text" xml:space="preserve">
+    <value>SUBMIT</value>
+  </data>
+  <data name="&gt;&gt;buttonSubmit_Registration.Name" xml:space="preserve">
+    <value>buttonSubmit_Registration</value>
+  </data>
+  <data name="&gt;&gt;buttonSubmit_Registration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonSubmit_Registration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonSubmit_Registration.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="panelMembershipTypes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="panelMembershipTypes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 432</value>
+  </data>
+  <data name="panelMembershipTypes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 106</value>
+  </data>
+  <data name="panelMembershipTypes.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;panelMembershipTypes.Name" xml:space="preserve">
+    <value>panelMembershipTypes</value>
+  </data>
+  <data name="&gt;&gt;panelMembershipTypes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelMembershipTypes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelMembershipTypes.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="panelContractDuration.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="panelContractDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 679</value>
+  </data>
+  <data name="panelContractDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 33</value>
+  </data>
+  <data name="panelContractDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;panelContractDuration.Name" xml:space="preserve">
+    <value>panelContractDuration</value>
+  </data>
+  <data name="&gt;&gt;panelContractDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelContractDuration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelContractDuration.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="panelDirectDebit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="panelDirectDebit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>536, 1010</value>
+  </data>
+  <data name="panelDirectDebit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 36</value>
+  </data>
+  <data name="panelDirectDebit.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;panelDirectDebit.Name" xml:space="preserve">
+    <value>panelDirectDebit</value>
+  </data>
+  <data name="&gt;&gt;panelDirectDebit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelDirectDebit.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelDirectDebit.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="pictureBoxLeftLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="pictureBoxLeftLogo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="pictureBoxLeftLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="pictureBoxLeftLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBoxLeftLogo.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pictureBoxLeftLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>317, 51</value>
+  </data>
+  <data name="pictureBoxLeftLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 90</value>
+  </data>
+  <data name="pictureBoxLeftLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="pictureBoxLeftLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="pictureBoxLeftLogo.WaitOnLoad" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLeftLogo.Name" xml:space="preserve">
+    <value>pictureBoxLeftLogo</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLeftLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLeftLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxLeftLogo.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="pictureBoxRightLogo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="pictureBoxRightLogo.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="pictureBoxRightLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="pictureBoxRightLogo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBoxRightLogo.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="pictureBoxRightLogo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>894, 51</value>
+  </data>
+  <data name="pictureBoxRightLogo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 90</value>
+  </data>
+  <data name="pictureBoxRightLogo.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="pictureBoxRightLogo.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="pictureBoxRightLogo.WaitOnLoad" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxRightLogo.Name" xml:space="preserve">
+    <value>pictureBoxRightLogo</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxRightLogo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxRightLogo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBoxRightLogo.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="labelNetMembershipCost.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelNetMembershipCost.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelNetMembershipCost.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelNetMembershipCost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>891, 802</value>
+  </data>
+  <data name="labelNetMembershipCost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 16</value>
+  </data>
+  <data name="labelNetMembershipCost.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelNetMembershipCost.Text" xml:space="preserve">
+    <value>Net membership cost</value>
+  </data>
+  <data name="&gt;&gt;labelNetMembershipCost.Name" xml:space="preserve">
+    <value>labelNetMembershipCost</value>
+  </data>
+  <data name="&gt;&gt;labelNetMembershipCost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelNetMembershipCost.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelNetMembershipCost.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="textBoxBaseMembershipCost_Amount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="textBoxBaseMembershipCost_Amount.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxBaseMembershipCost_Amount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1030, 715</value>
+  </data>
+  <data name="textBoxBaseMembershipCost_Amount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="textBoxBaseMembershipCost_Amount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBoxBaseMembershipCost_Amount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="textBoxBaseMembershipCost_Amount.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;textBoxBaseMembershipCost_Amount.Name" xml:space="preserve">
+    <value>textBoxBaseMembershipCost_Amount</value>
+  </data>
+  <data name="&gt;&gt;textBoxBaseMembershipCost_Amount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxBaseMembershipCost_Amount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxBaseMembershipCost_Amount.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="textBoxTotalDiscount_Amount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="textBoxTotalDiscount_Amount.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxTotalDiscount_Amount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1030, 743</value>
+  </data>
+  <data name="textBoxTotalDiscount_Amount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="textBoxTotalDiscount_Amount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBoxTotalDiscount_Amount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="textBoxTotalDiscount_Amount.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;textBoxTotalDiscount_Amount.Name" xml:space="preserve">
+    <value>textBoxTotalDiscount_Amount</value>
+  </data>
+  <data name="&gt;&gt;textBoxTotalDiscount_Amount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxTotalDiscount_Amount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxTotalDiscount_Amount.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="textBoxValueAddedExtras_Amount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="textBoxValueAddedExtras_Amount.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxValueAddedExtras_Amount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1030, 771</value>
+  </data>
+  <data name="textBoxValueAddedExtras_Amount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="textBoxValueAddedExtras_Amount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBoxValueAddedExtras_Amount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="textBoxValueAddedExtras_Amount.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;textBoxValueAddedExtras_Amount.Name" xml:space="preserve">
+    <value>textBoxValueAddedExtras_Amount</value>
+  </data>
+  <data name="&gt;&gt;textBoxValueAddedExtras_Amount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxValueAddedExtras_Amount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxValueAddedExtras_Amount.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="textBoxNetMembershipCost_Amount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="textBoxNetMembershipCost_Amount.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxNetMembershipCost_Amount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1030, 799</value>
+  </data>
+  <data name="textBoxNetMembershipCost_Amount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 22</value>
+  </data>
+  <data name="textBoxNetMembershipCost_Amount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBoxNetMembershipCost_Amount.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="textBoxNetMembershipCost_Amount.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;textBoxNetMembershipCost_Amount.Name" xml:space="preserve">
+    <value>textBoxNetMembershipCost_Amount</value>
+  </data>
+  <data name="&gt;&gt;textBoxNetMembershipCost_Amount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxNetMembershipCost_Amount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxNetMembershipCost_Amount.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="textBoxClickToClearFormAndStartAgain.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxClickToClearFormAndStartAgain.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt, style=Italic</value>
+  </data>
+  <data name="textBoxClickToClearFormAndStartAgain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>894, 1105</value>
+  </data>
+  <data name="textBoxClickToClearFormAndStartAgain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 16</value>
+  </data>
+  <data name="textBoxClickToClearFormAndStartAgain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBoxClickToClearFormAndStartAgain.Text" xml:space="preserve">
+    <value>Click to clear form and start again</value>
+  </data>
+  <data name="textBoxClickToClearFormAndStartAgain.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="textBoxClickToClearFormAndStartAgain.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;textBoxClickToClearFormAndStartAgain.Name" xml:space="preserve">
+    <value>textBoxClickToClearFormAndStartAgain</value>
+  </data>
+  <data name="&gt;&gt;textBoxClickToClearFormAndStartAgain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxClickToClearFormAndStartAgain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxClickToClearFormAndStartAgain.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="textBoxClickToCompleteRegistration.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxClickToCompleteRegistration.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt, style=Italic</value>
+  </data>
+  <data name="textBoxClickToCompleteRegistration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>894, 1007</value>
+  </data>
+  <data name="textBoxClickToCompleteRegistration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>262, 16</value>
+  </data>
+  <data name="textBoxClickToCompleteRegistration.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBoxClickToCompleteRegistration.Text" xml:space="preserve">
+    <value>Click to complete registration</value>
+  </data>
+  <data name="textBoxClickToCompleteRegistration.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="textBoxClickToCompleteRegistration.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;textBoxClickToCompleteRegistration.Name" xml:space="preserve">
+    <value>textBoxClickToCompleteRegistration</value>
+  </data>
+  <data name="&gt;&gt;textBoxClickToCompleteRegistration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxClickToCompleteRegistration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxClickToCompleteRegistration.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="textBoxClickToViewMembershipCosts.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="textBoxClickToViewMembershipCosts.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBoxClickToViewMembershipCosts.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt, style=Italic</value>
+  </data>
+  <data name="textBoxClickToViewMembershipCosts.Location" type="System.Drawing.Point, System.Drawing">
+    <value>894, 668</value>
+  </data>
+  <data name="textBoxClickToViewMembershipCosts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>247, 16</value>
+  </data>
+  <data name="textBoxClickToViewMembershipCosts.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="textBoxClickToViewMembershipCosts.Text" xml:space="preserve">
+    <value>Click to view membership costs</value>
+  </data>
+  <data name="textBoxClickToViewMembershipCosts.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="textBoxClickToViewMembershipCosts.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;textBoxClickToViewMembershipCosts.Name" xml:space="preserve">
+    <value>textBoxClickToViewMembershipCosts</value>
+  </data>
+  <data name="&gt;&gt;textBoxClickToViewMembershipCosts.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxClickToViewMembershipCosts.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBoxClickToViewMembershipCosts.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="panelPaymentFrequency.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="panelPaymentFrequency.Location" type="System.Drawing.Point, System.Drawing">
+    <value>481, 1052</value>
+  </data>
+  <data name="panelPaymentFrequency.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 36</value>
+  </data>
+  <data name="panelPaymentFrequency.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;panelPaymentFrequency.Name" xml:space="preserve">
+    <value>panelPaymentFrequency</value>
+  </data>
+  <data name="&gt;&gt;panelPaymentFrequency.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelPaymentFrequency.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelPaymentFrequency.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="labelCustomerConsent.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelCustomerConsent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelCustomerConsent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelCustomerConsent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelCustomerConsent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>685, 406</value>
+  </data>
+  <data name="labelCustomerConsent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 19</value>
+  </data>
+  <data name="labelCustomerConsent.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelCustomerConsent.Text" xml:space="preserve">
+    <value>Customer Consent :</value>
+  </data>
+  <data name="&gt;&gt;labelCustomerConsent.Name" xml:space="preserve">
+    <value>labelCustomerConsent</value>
+  </data>
+  <data name="&gt;&gt;labelCustomerConsent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelCustomerConsent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelCustomerConsent.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="checkBox24_7Access_Extra.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBox24_7Access_Extra.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBox24_7Access_Extra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 9</value>
+  </data>
+  <data name="checkBox24_7Access_Extra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 20</value>
+  </data>
+  <data name="checkBox24_7Access_Extra.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="checkBox24_7Access_Extra.Text" xml:space="preserve">
+    <value>24/7 Access</value>
+  </data>
+  <data name="&gt;&gt;checkBox24_7Access_Extra.Name" xml:space="preserve">
+    <value>checkBox24_7Access_Extra</value>
+  </data>
+  <data name="&gt;&gt;checkBox24_7Access_Extra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBox24_7Access_Extra.Parent" xml:space="preserve">
+    <value>panelValueAddedExtras</value>
+  </data>
+  <data name="&gt;&gt;checkBox24_7Access_Extra.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="checkBoxPersonalTrainer_Extra.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxPersonalTrainer_Extra.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxPersonalTrainer_Extra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 35</value>
+  </data>
+  <data name="checkBoxPersonalTrainer_Extra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 20</value>
+  </data>
+  <data name="checkBoxPersonalTrainer_Extra.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="checkBoxPersonalTrainer_Extra.Text" xml:space="preserve">
+    <value>Personal trainer</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPersonalTrainer_Extra.Name" xml:space="preserve">
+    <value>checkBoxPersonalTrainer_Extra</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPersonalTrainer_Extra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPersonalTrainer_Extra.Parent" xml:space="preserve">
+    <value>panelValueAddedExtras</value>
+  </data>
+  <data name="&gt;&gt;checkBoxPersonalTrainer_Extra.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="checkBoxDietConsultation_Extra.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxDietConsultation_Extra.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxDietConsultation_Extra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 61</value>
+  </data>
+  <data name="checkBoxDietConsultation_Extra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 20</value>
+  </data>
+  <data name="checkBoxDietConsultation_Extra.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="checkBoxDietConsultation_Extra.Text" xml:space="preserve">
+    <value>Diet consultation</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDietConsultation_Extra.Name" xml:space="preserve">
+    <value>checkBoxDietConsultation_Extra</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDietConsultation_Extra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDietConsultation_Extra.Parent" xml:space="preserve">
+    <value>panelValueAddedExtras</value>
+  </data>
+  <data name="&gt;&gt;checkBoxDietConsultation_Extra.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="checkBoxAccessOnlineFitnessVideos_Extra.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="checkBoxAccessOnlineFitnessVideos_Extra.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="checkBoxAccessOnlineFitnessVideos_Extra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 87</value>
+  </data>
+  <data name="checkBoxAccessOnlineFitnessVideos_Extra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 20</value>
+  </data>
+  <data name="checkBoxAccessOnlineFitnessVideos_Extra.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="checkBoxAccessOnlineFitnessVideos_Extra.Text" xml:space="preserve">
+    <value>Access online fitness videos</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAccessOnlineFitnessVideos_Extra.Name" xml:space="preserve">
+    <value>checkBoxAccessOnlineFitnessVideos_Extra</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAccessOnlineFitnessVideos_Extra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAccessOnlineFitnessVideos_Extra.Parent" xml:space="preserve">
+    <value>panelValueAddedExtras</value>
+  </data>
+  <data name="&gt;&gt;checkBoxAccessOnlineFitnessVideos_Extra.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelRequiredSelectionsToCalculateYourMembershipCost.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelRequiredSelectionsToCalculateYourMembershipCost.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRequiredSelectionsToCalculateYourMembershipCost.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt, style=Italic</value>
+  </data>
+  <data name="labelRequiredSelectionsToCalculateYourMembershipCost.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRequiredSelectionsToCalculateYourMembershipCost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>891, 561</value>
+  </data>
+  <data name="labelRequiredSelectionsToCalculateYourMembershipCost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>372, 17</value>
+  </data>
+  <data name="labelRequiredSelectionsToCalculateYourMembershipCost.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelRequiredSelectionsToCalculateYourMembershipCost.Text" xml:space="preserve">
+    <value>***  See required selections to calculate your membership cost</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredSelectionsToCalculateYourMembershipCost.Name" xml:space="preserve">
+    <value>labelRequiredSelectionsToCalculateYourMembershipCost</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredSelectionsToCalculateYourMembershipCost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredSelectionsToCalculateYourMembershipCost.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredSelectionsToCalculateYourMembershipCost.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="labelContractDuration.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelContractDuration.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelContractDuration.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelContractDuration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelContractDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 561</value>
+  </data>
+  <data name="labelContractDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 19</value>
+  </data>
+  <data name="labelContractDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="labelContractDuration.Text" xml:space="preserve">
+    <value>Contract Duration :</value>
+  </data>
+  <data name="&gt;&gt;labelContractDuration.Name" xml:space="preserve">
+    <value>labelContractDuration</value>
+  </data>
+  <data name="&gt;&gt;labelContractDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelContractDuration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelContractDuration.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="labelPaymentOptions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelPaymentOptions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPaymentOptions.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9.75pt, style=Bold</value>
+  </data>
+  <data name="labelPaymentOptions.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPaymentOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 903</value>
+  </data>
+  <data name="labelPaymentOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>131, 19</value>
+  </data>
+  <data name="labelPaymentOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="labelPaymentOptions.Text" xml:space="preserve">
+    <value>Payment Options :</value>
+  </data>
+  <data name="&gt;&gt;labelPaymentOptions.Name" xml:space="preserve">
+    <value>labelPaymentOptions</value>
+  </data>
+  <data name="&gt;&gt;labelPaymentOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPaymentOptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPaymentOptions.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="labelSelectHowYouWouldLikeToPay.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelSelectHowYouWouldLikeToPay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSelectHowYouWouldLikeToPay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt, style=Italic</value>
+  </data>
+  <data name="labelSelectHowYouWouldLikeToPay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSelectHowYouWouldLikeToPay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 905</value>
+  </data>
+  <data name="labelSelectHowYouWouldLikeToPay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 17</value>
+  </data>
+  <data name="labelSelectHowYouWouldLikeToPay.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelSelectHowYouWouldLikeToPay.Text" xml:space="preserve">
+    <value>Select how you would like to pay</value>
+  </data>
+  <data name="&gt;&gt;labelSelectHowYouWouldLikeToPay.Name" xml:space="preserve">
+    <value>labelSelectHowYouWouldLikeToPay</value>
+  </data>
+  <data name="&gt;&gt;labelSelectHowYouWouldLikeToPay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSelectHowYouWouldLikeToPay.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelSelectHowYouWouldLikeToPay.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="labelOptional.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelOptional.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelOptional.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="labelOptional.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelOptional.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 766</value>
+  </data>
+  <data name="labelOptional.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 16</value>
+  </data>
+  <data name="labelOptional.TabIndex" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="labelOptional.Text" xml:space="preserve">
+    <value>( optional )</value>
+  </data>
+  <data name="&gt;&gt;labelOptional.Name" xml:space="preserve">
+    <value>labelOptional</value>
+  </data>
+  <data name="&gt;&gt;labelOptional.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelOptional.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelOptional.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="labelRequiredMembershipTypes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelRequiredMembershipTypes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRequiredMembershipTypes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRequiredMembershipTypes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 429</value>
+  </data>
+  <data name="labelRequiredMembershipTypes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 16</value>
+  </data>
+  <data name="labelRequiredMembershipTypes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelRequiredMembershipTypes.Text" xml:space="preserve">
+    <value>***</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredMembershipTypes.Name" xml:space="preserve">
+    <value>labelRequiredMembershipTypes</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredMembershipTypes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredMembershipTypes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredMembershipTypes.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="labelRequiredContractDuration.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelRequiredContractDuration.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRequiredContractDuration.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRequiredContractDuration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 580</value>
+  </data>
+  <data name="labelRequiredContractDuration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 16</value>
+  </data>
+  <data name="labelRequiredContractDuration.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelRequiredContractDuration.Text" xml:space="preserve">
+    <value>***</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredContractDuration.Name" xml:space="preserve">
+    <value>labelRequiredContractDuration</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredContractDuration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredContractDuration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredContractDuration.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="labelRequiredPaymentOptions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelRequiredPaymentOptions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRequiredPaymentOptions.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRequiredPaymentOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 922</value>
+  </data>
+  <data name="labelRequiredPaymentOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 16</value>
+  </data>
+  <data name="labelRequiredPaymentOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>85</value>
+  </data>
+  <data name="labelRequiredPaymentOptions.Text" xml:space="preserve">
+    <value>***</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredPaymentOptions.Name" xml:space="preserve">
+    <value>labelRequiredPaymentOptions</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredPaymentOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredPaymentOptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelRequiredPaymentOptions.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="labelSubmitMsg.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="labelSubmitMsg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelSubmitMsg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt, style=Italic</value>
+  </data>
+  <data name="labelSubmitMsg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelSubmitMsg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>891, 905</value>
+  </data>
+  <data name="labelSubmitMsg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>318, 17</value>
+  </data>
+  <data name="labelSubmitMsg.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelSubmitMsg.Text" xml:space="preserve">
+    <value>Calculate your membership before clicking "SUBMIT"</value>
+  </data>
+  <data name="&gt;&gt;labelSubmitMsg.Name" xml:space="preserve">
+    <value>labelSubmitMsg</value>
+  </data>
+  <data name="&gt;&gt;labelSubmitMsg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelSubmitMsg.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelSubmitMsg.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="labelBaseMembership_Choice.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelBaseMembership_Choice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelBaseMembership_Choice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelBaseMembership_Choice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1136, 718</value>
+  </data>
+  <data name="labelBaseMembership_Choice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="labelBaseMembership_Choice.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelBaseMembership_Choice.Text" xml:space="preserve">
+    <value>            </value>
+  </data>
+  <data name="labelBaseMembership_Choice.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;labelBaseMembership_Choice.Name" xml:space="preserve">
+    <value>labelBaseMembership_Choice</value>
+  </data>
+  <data name="&gt;&gt;labelBaseMembership_Choice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelBaseMembership_Choice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelBaseMembership_Choice.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="labelDiscount_Choice.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelDiscount_Choice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelDiscount_Choice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelDiscount_Choice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1136, 746</value>
+  </data>
+  <data name="labelDiscount_Choice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="labelDiscount_Choice.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelDiscount_Choice.Text" xml:space="preserve">
+    <value>            </value>
+  </data>
+  <data name="labelDiscount_Choice.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;labelDiscount_Choice.Name" xml:space="preserve">
+    <value>labelDiscount_Choice</value>
+  </data>
+  <data name="&gt;&gt;labelDiscount_Choice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelDiscount_Choice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelDiscount_Choice.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelValueAddedExtras_Choice.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelValueAddedExtras_Choice.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelValueAddedExtras_Choice.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelValueAddedExtras_Choice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1136, 774</value>
+  </data>
+  <data name="labelValueAddedExtras_Choice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 16</value>
+  </data>
+  <data name="labelValueAddedExtras_Choice.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelValueAddedExtras_Choice.Text" xml:space="preserve">
+    <value>            </value>
+  </data>
+  <data name="labelValueAddedExtras_Choice.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;labelValueAddedExtras_Choice.Name" xml:space="preserve">
+    <value>labelValueAddedExtras_Choice</value>
+  </data>
+  <data name="&gt;&gt;labelValueAddedExtras_Choice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelValueAddedExtras_Choice.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelValueAddedExtras_Choice.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="labelPleaseSelect.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="labelPleaseSelect.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPleaseSelect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 9pt, style=Italic</value>
+  </data>
+  <data name="labelPleaseSelect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPleaseSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>891, 408</value>
+  </data>
+  <data name="labelPleaseSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 17</value>
+  </data>
+  <data name="labelPleaseSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelPleaseSelect.Text" xml:space="preserve">
+    <value>Please select</value>
+  </data>
+  <data name="&gt;&gt;labelPleaseSelect.Name" xml:space="preserve">
+    <value>labelPleaseSelect</value>
+  </data>
+  <data name="&gt;&gt;labelPleaseSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPleaseSelect.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelPleaseSelect.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBoxRegion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="comboBoxRegion.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="comboBoxRegion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="comboBoxRegion.Items" xml:space="preserve">
+    <value>Auckland</value>
+  </data>
+  <data name="comboBoxRegion.Items1" xml:space="preserve">
+    <value>Bay of Plenty</value>
+  </data>
+  <data name="comboBoxRegion.Items2" xml:space="preserve">
+    <value>Canterbury</value>
+  </data>
+  <data name="comboBoxRegion.Items3" xml:space="preserve">
+    <value>Coromandel</value>
+  </data>
+  <data name="comboBoxRegion.Items4" xml:space="preserve">
+    <value>Eastland</value>
+  </data>
+  <data name="comboBoxRegion.Items5" xml:space="preserve">
+    <value>Fiordland</value>
+  </data>
+  <data name="comboBoxRegion.Items6" xml:space="preserve">
+    <value>Hawke's Bay</value>
+  </data>
+  <data name="comboBoxRegion.Items7" xml:space="preserve">
+    <value>Lake Taupo</value>
+  </data>
+  <data name="comboBoxRegion.Items8" xml:space="preserve">
+    <value>Lake Wanaka</value>
+  </data>
+  <data name="comboBoxRegion.Items9" xml:space="preserve">
+    <value>Manawatu</value>
+  </data>
+  <data name="comboBoxRegion.Items10" xml:space="preserve">
+    <value>Marlborough</value>
+  </data>
+  <data name="comboBoxRegion.Items11" xml:space="preserve">
+    <value>Nelson</value>
+  </data>
+  <data name="comboBoxRegion.Items12" xml:space="preserve">
+    <value>Northland</value>
+  </data>
+  <data name="comboBoxRegion.Items13" xml:space="preserve">
+    <value>Otago</value>
+  </data>
+  <data name="comboBoxRegion.Items14" xml:space="preserve">
+    <value>Queenstown</value>
+  </data>
+  <data name="comboBoxRegion.Items15" xml:space="preserve">
+    <value>Rotorua</value>
+  </data>
+  <data name="comboBoxRegion.Items16" xml:space="preserve">
+    <value>Southland</value>
+  </data>
+  <data name="comboBoxRegion.Items17" xml:space="preserve">
+    <value>Taranaki</value>
+  </data>
+  <data name="comboBoxRegion.Items18" xml:space="preserve">
+    <value>Waikato</value>
+  </data>
+  <data name="comboBoxRegion.Items19" xml:space="preserve">
+    <value>Wairarapa</value>
+  </data>
+  <data name="comboBoxRegion.Items20" xml:space="preserve">
+    <value>Wanganui</value>
+  </data>
+  <data name="comboBoxRegion.Items21" xml:space="preserve">
+    <value>Wellington</value>
+  </data>
+  <data name="comboBoxRegion.Items22" xml:space="preserve">
+    <value>West Coast</value>
+  </data>
+  <data name="comboBoxRegion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>894, 328</value>
+  </data>
+  <data name="comboBoxRegion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>383, 24</value>
+  </data>
+  <data name="comboBoxRegion.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;comboBoxRegion.Name" xml:space="preserve">
+    <value>comboBoxRegion</value>
+  </data>
+  <data name="&gt;&gt;comboBoxRegion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBoxRegion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBoxRegion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="labelRegularPmtAmt.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelRegularPmtAmt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 20.25pt, style=Bold, Italic</value>
+  </data>
+  <data name="labelRegularPmtAmt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelRegularPmtAmt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1156, 834</value>
+  </data>
+  <data name="labelRegularPmtAmt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 36</value>
+  </data>
+  <data name="labelRegularPmtAmt.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="labelRegularPmtAmt.Text" xml:space="preserve">
+    <value>$000.00</value>
+  </data>
+  <data name="labelRegularPmtAmt.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelRegularPmtAmt.Name" xml:space="preserve">
+    <value>labelRegularPmtAmt</value>
+  </data>
+  <data name="&gt;&gt;labelRegularPmtAmt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelRegularPmtAmt.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelRegularPmtAmt.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="panelValueAddedExtras.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="panelValueAddedExtras.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 766</value>
+  </data>
+  <data name="panelValueAddedExtras.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 115</value>
+  </data>
+  <data name="panelValueAddedExtras.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;panelValueAddedExtras.Name" xml:space="preserve">
+    <value>panelValueAddedExtras</value>
+  </data>
+  <data name="&gt;&gt;panelValueAddedExtras.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelValueAddedExtras.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelValueAddedExtras.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="menuStripMembershipRegistration.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="menuStripMembershipRegistration.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
+  </data>
+  <data name="toolStripMenuItemMainMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 21</value>
+  </data>
+  <data name="toolStripMenuItemMainMenu.Text" xml:space="preserve">
+    <value>Main Menu</value>
+  </data>
+  <data name="toolStripMenuItemExitApplication.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 21</value>
+  </data>
+  <data name="toolStripMenuItemExitApplication.Text" xml:space="preserve">
+    <value>Exit Application</value>
+  </data>
+  <data name="ToolStripMenuItemAddAMemberScreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 22</value>
+  </data>
+  <data name="ToolStripMenuItemAddAMemberScreen.Text" xml:space="preserve">
+    <value>Add a Member screen</value>
+  </data>
+  <data name="toolStripMenuItemHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 21</value>
+  </data>
+  <data name="toolStripMenuItemHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="menuStripMembershipRegistration.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStripMembershipRegistration.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1345, 25</value>
+  </data>
+  <data name="menuStripMembershipRegistration.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="menuStripMembershipRegistration.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStripMembershipRegistration.Name" xml:space="preserve">
+    <value>menuStripMembershipRegistration</value>
+  </data>
+  <data name="&gt;&gt;menuStripMembershipRegistration.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStripMembershipRegistration.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStripMembershipRegistration.ZOrder" xml:space="preserve">
+    <value>77</value>
+  </data>
+  <metadata name="memberTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>259, 17</value>
+  </metadata>
+  <metadata name="cityGymDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>430, 17</value>
+  </metadata>
+  <metadata name="tableAdapterManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>568, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>63</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 16</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing">
+    <value>1345, 1150</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1327, 1111</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAHh4AAAEACABgCAAAFgAAACgAAAAeAAAAPAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAHBwQACQkFAAwMCgAODgsADw8MABAQDQAREQ4AEREPABMTEQAUFBIAFRUTABYWFAAYGBYAGBgXABoa
+        GAAbGxkAHBwaACAgHwAhISAAIyMiACQkIgAnJyUAJycmACkpKAArKyoALy8uADQ0MwA4ODcAOTk4ADk5
+        OQA9PTwAPj49AEBAQABBQUEARERDAEVFRABGRkUARkZGAEdHRwBKSkoATExLAE1NTQBQUE8AUVFRAFRU
+        VABYWFcAWlpaAF1dXABgYGAAYWFgAGNjYwBmZmYAampqAG9vbwBycnIAc3NyAHNzcwB2dnUAdnZ2AHl5
+        eAB5eXkAenp5AHt7ewB8fHwAfX19AH5+fQCAgIAAiIiIAImJiQCKiooAjIyLAIyMjACOjo0AkJCPAJGR
+        kACSkpIAlJSUAJaWlQCWlpYAl5eXAJiYmACZmZgAnJybAJycnACenp4AoqKiAKSkpAClpaUApqalAKen
+        pwCoqKgAqamoAKqqqQCqqqoAq6urAK2trQCurq4Ar6+uAK+vrwCxsbAAsbGxALKysgC0tLQAtra1ALa2
+        tgC7u7sAvLy7ALy8vAC9vb0Avr69AL6+vgDAwL8AwMDAAMHBwQDDw8MAxMTEAMXFxQDGxsYAx8fHAMjI
+        xwDIyMgAycnJAMrKyQDLy8sA0NDQANLS0QDS0tIA09PTANXV1QDW1tYA2NjYANnZ2QDa2toA29vbANzc
+        2wDc3NwA3d3cAN3d3QDe3t4A39/fAODg3wDg4OAA4eHhAOLi4gDj4+MA5OTkAOXl5QDn5+cA6OjnAOjo
+        6ADp6ekA6urqAOvr6wDs7OwA7e3tAO7u7gDv7+8A8PDwAPHx8ADx8fEA8vLyAPPz8wD09PQA9fX1APb2
+        9gD39/YA9/f3APj4+AD5+fkA+vr6APv7+wD8/PwA/f39AP7+/gD///8AAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAArq6sra6urq6urq6urq6urq6urq6urq6urq6urq6uAACurpeDrq6urq6urq6urq6urq6urq6u
+        rq6urq6urq4AAK6uq2F7rq6urq6urq6urq6urq6urq6urq6urq6urgAArq6uoDx2q66urq6trq6urq6u
+        rq6urq6urq6urq6uAACurq6uhCRqq66urpaHqq6urq6urq6urq6urq6urq4AAK6urq6tbBhnrK6urHdR
+        lK6urq6urq6urq6urq6urgAArq6urq6mRQ9iqq6urGkqZqKurq6urq6urq6urq6uAACurq6urq6VLBJg
+        qq6uq2UOO4Wtrq6urq6urq6urq4AAK6urq6urq5zCxFlq66uqVQHHnOrrq6urq6urq6urgAArq6urq6u
+        rq1TAAxorK6upksGEmKqrq6urq6urq6uAACurq6urq6urp02ABl/rq6uokQAFHGurq6urq6urq4AAK6u
+        rq6urq6uroIfAGWrimtHKAAAQKuurq6urq6urgAArq6urq6fmKasrXUwVEoWAAAAACp8rq6urq6urq6u
+        AACurq6uroAtXKuurYEbAAAAABpNlq2urq6urq6urq4AAK6up5WfTypUrq6uixsABCFSjqyurq6urq6u
+        rq6urgAArq6aLz90lW+urq6tgmd8n62rf1Vfo66urq6urq6uAACuro84Pph8ra6urq5wN42ulUwUCApa
+        ra6urq6urq4AAK6up6ByqlCDrq6urmYBTpEwARBfSByFrq6urq6urgAArq6urq6ugCWMrq6umTNGWgIg
+        baygNU6trq6urq6uAACurq6urq6oQTGSraGGWmSLepKtrq6ONJuto62srq4AAK6urq6urq6OJjpfMhUA
+        BVF4U1aHrq1/eKNCYJqurgAArq6urq6urq5+JwkNHTJjWBMAACOKrZqCfSsyqq6uAACurq6urq6urq6d
+        f4mjrqUuAAAAAFuoOVBLi1mcrq4AAK6urq6urq6urq6urq6uoSkAAAAAV6FJG5Ourq6urgAArq6urq6u
+        rq6urq6pkK6tYgMAABd/o55ukq6urq6uAACurq6urq6urq6urq1riK6aKiJDeauurq6urq6urq4AAK6u
+        rq6urq6urq6urpM9j2QNaayurq6urq6urq6urgAArq6urq6urq6urq6urV4tGkSkrq6urq6urq6urq6u
+        AACurq6urq6urq6urq6uo1xdoq6urq6urq6urq6urq4AAK6urq6urq6urq6urq6ura2urq6urq6urq6u
+        rq6urgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAA
+</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>WindowsDefaultBounds</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>City Gym Application</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemMainMenu.Name" xml:space="preserve">
+    <value>toolStripMenuItemMainMenu</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemMainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemExitApplication.Name" xml:space="preserve">
+    <value>toolStripMenuItemExitApplication</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemExitApplication.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemHelp.Name" xml:space="preserve">
+    <value>toolStripMenuItemHelp</value>
+  </data>
+  <data name="&gt;&gt;toolStripMenuItemHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemAddAMemberScreen.Name" xml:space="preserve">
+    <value>ToolStripMenuItemAddAMemberScreen</value>
+  </data>
+  <data name="&gt;&gt;ToolStripMenuItemAddAMemberScreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;memberTableAdapter.Name" xml:space="preserve">
+    <value>memberTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;memberTableAdapter.Type" xml:space="preserve">
+    <value>GymMembershipRegistrationPrototype.CityGymDataSetTableAdapters.MemberTableAdapter, CityGymDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cityGymDataSet.Name" xml:space="preserve">
+    <value>cityGymDataSet</value>
+  </data>
+  <data name="&gt;&gt;cityGymDataSet.Type" xml:space="preserve">
+    <value>GymMembershipRegistrationPrototype.CityGymDataSet, CityGymDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tableAdapterManager.Name" xml:space="preserve">
+    <value>tableAdapterManager</value>
+  </data>
+  <data name="&gt;&gt;tableAdapterManager.Type" xml:space="preserve">
+    <value>GymMembershipRegistrationPrototype.CityGymDataSetTableAdapters.TableAdapterManager, CityGymDataSet.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AddAMember</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
