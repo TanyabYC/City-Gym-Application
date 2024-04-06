@@ -1,6 +1,8 @@
 # C# Windows Desktop Database Application | City-Gym-Application
 
-The project involved initially converting a paper-based gym membership application of a fictitious business, City Gym, into a digital application that would run on their new Microsoft Windows computers. Thereafter, the project involved enhancing the application to a multi-page database application to include a member search page to manage gym memberships and a user interface for the fitness class booking page. Lastly, help screens were added to make it easy for users to interact with the application. Each screen's help screen can be navigated to from the top menu bar.
+The project involved initially converting a paper-based gym membership application of a fictitious business, City Gym, into a digital application that would run on their new Microsoft Windows computers. The gym's paper-based system made it increasingly difficult to keep track of client information due to their continuous growth of added gym memberships. Once the gym membership page was created and new gym membership could digitally be added, the application needed to be enhanced to a multi-page database application that would include a member search page to manage gym memberships and a user interface for the fitness class booking page. Help screens were also required to make it easy for users to interact with the application.
+
+The project was completed over 3 assessments whilst completing the Fundamentals of Programming course at Open Polytechnic NZ as part of the Web Development and Design diploma. The Windows application, including the database, was developed with the .NET Framework within Visual Studio 2022 and runs on a Microsoft Windows operating system. It was built with C#/C++ and SQL code.
 
 Designing the application involved:
 * Creating a concept for the design of the gym membership application screen by brainstorming ideas.
@@ -10,7 +12,9 @@ Designing the application involved:
 * Designing the SQL database with an Entity Relationship Diagram (ERD).
 * Designing database classes with a UML (Unified Modelling Language) diagram.
 
-The project was completed over 3 assessments whilst completing the Fundamentals of Programming course at Open Polytechnic NZ as part of the Web Development and Design diploma. The Windows application, including the database, was developed with the .NET Framework within Visual Studio 2022 and runs on a Microsoft Windows operating system. It was built with C#/C++ and SQL code. <a href="https://www.nngroup.com/articles/ten-usability-heuristics/" target="_blank" title="More on the usability heuristics">Jakob Nielsen&#39;s Usability Heuristics</a> were implemented to make the application usable and to conform with industry standards.
+<a href="https://www.nngroup.com/articles/ten-usability-heuristics/" target="_blank" title="More on the usability heuristics">Jakob Nielsen&#39;s Usability Heuristics</a> were implemented to make the application usable and to conform with industry standards.
+
+Each screen's help screen is available from the top menu bar.
 
 # Improvements / Enhancements
 Further improvements would involve adding functionality to the fitness class booking page to add class boookings to the ClassBooking table in the SQL database. The application could also be upgraded to the latest .NET platform to deploy it to multiple operating systems.
