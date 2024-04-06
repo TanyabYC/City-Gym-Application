@@ -19,7 +19,7 @@ Designing the application involved:
 Each screen's help screen is available from the top menu bar.
 
 # Improvements / Enhancements
-Further improvements would involve adding functionality to the fitness class booking page to add class boookings to the ClassBooking table in the SQL database. The application could also be upgraded to the latest .NET platform to deploy it to multiple operating systems.
+Functionality to the fitness class booking page could be added to add class boookings to the ClassBooking table in the SQL database. The application could also be upgraded to the latest .NET platform to deploy it to multiple operating systems.
 
 # Screenshots
 # Screens for User Interaction
