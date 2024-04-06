@@ -1,6 +1,8 @@
 # C# Windows Desktop Database Application | City-Gym-Application
 
-The project involved initially converting a paper-based gym membership application of a fictitious business, City Gym, into a digital application that would run on their new Microsoft Windows computers. The gym's paper-based system made it increasingly difficult to keep track of client information due to their continuous growth of added gym memberships. Once the gym membership page was created and new gym membership could digitally be added, the application needed to be enhanced to a multi-page database application that would include a member search page to manage gym memberships and a user interface for the fitness class booking page. Help screens were also required to make it easy for users to interact with the application.
+The project involved initially converting a paper-based gym membership application of a fictitious business, City Gym, into a digital application that would run on their new Microsoft Windows computers. 
+
+The gym's paper-based system made it increasingly difficult to keep track of client information due to their continuous growth of added gym memberships. Once the gym membership page was created and new gym membership could digitally be added, the application needed to be enhanced to a multi-page database application that would include a member search page to manage gym memberships and a user interface for the fitness class booking page. Help screens were also required to make it easy for users to interact with the application.
 
 The project was completed over 3 assessments whilst completing the Fundamentals of Programming course at Open Polytechnic NZ as part of the Web Development and Design diploma. The Windows application, including the database, was developed with the .NET Framework within Visual Studio 2022 and runs on a Microsoft Windows operating system. It was built with C#/C++ and SQL code.
 
